@@ -4,7 +4,7 @@ import pandas as pd
 # Load the CSV file
 @st.cache
 def load_data():
-    data = pd.read_csv('moving_violations_summary_2014.csv')
+    data = pd.read_csv('data/moving_violations_summary_2014.csv')
     return data
 
 data = load_data()
